@@ -2,9 +2,15 @@
 :root {
     --background-color: rgb(255, 255, 255);
 }
+a {
+    text-decoration: none;
+}
 body {
     background: var(--background-color, white)
 }
 h1 {
     color: red;
+}
+.main {
+    background-color: burlywood;
 }
