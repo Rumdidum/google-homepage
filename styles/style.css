@@ -3,14 +3,45 @@
     --background-color: rgb(255, 255, 255);
 }
 a {
+    display: inline-block;
     text-decoration: none;
 }
-body {
-    background: var(--background-color, white)
+a.nav-l {
+    /* copied from google page */
+    margin-left: 15px;
+    display:inline-block;
+    padding: 5px;
+    
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color, white);
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222
 }
 h1 {
-    color: red;
+    color: rgb(100, 120, 163);
 }
 .main {
-    background-color: burlywood;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(222, 232, 242);
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    background-color: cadetblue;
+    flex-shrink: 0;
+    /* i dont get box-sizing and have to look up */
+    box-sizing: border-box;
+}
+.navbar .space {
+    display: flex;
+    flex-grow: 1; 
 }
