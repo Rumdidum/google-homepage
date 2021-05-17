@@ -6,11 +6,19 @@ a {
     display: inline-block;
     text-decoration: none;
 }
+/* copied from Style Editor */
+a:hover,
+a:active {
+    text-decoration:underline;
+}
+
+
 a.nav-l {
     /* copied from google page */
     margin-left: 15px;
     display:inline-block;
     padding: 5px;
+    margin: 0 5px;
     
 }
 body, html {
@@ -42,6 +50,11 @@ h1 {
     box-sizing: border-box;
 }
 .navbar .space {
-    display: flex;
-    flex-grow: 1; 
+    display: inline-block;
+    flex-grow: 1;
+    
+}
+.nav-right a {
+    display: inline-block;
+    padding-left: 15px;
 }
