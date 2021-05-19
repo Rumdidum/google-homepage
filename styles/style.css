@@ -68,31 +68,23 @@ h1 {
     padding: 5px;
 }
 header {
-    background-color: cadetblue;
+    background-color: var(--background-color);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100%;
-
 }
 .google-text {
     padding: 25px;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
-.searchbox {
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
-}
 .search {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .search i {
-    display: flex;
     position: relative;
     left: 40px;
     font-size: 20px;
@@ -102,10 +94,25 @@ header {
     width: 484px;
     height: 45px;
     border-radius:25px;
-    border: transparent;
+    border: 1px solid rgb(182, 182, 182);
 }
+.search input:hover {
+    box-shadow:0 3px 3px 3px rgba(0,0,0,.16);
+    border: 1px solid white;
+    
+}
+input {
+    outline: none;
+}
+
+
 footer {
     position: fixed;
     bottom: 0px;
-    background-color: burlywood;
+}
+footer .land {
+    border-bottom: 1px solid gray;
+    padding: 15px 30px;
+    /* overflow: hidden; */
+    background-color: rgb(32, 55, 119);
 }
