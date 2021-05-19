@@ -86,6 +86,24 @@ header {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
 }
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search i {
+    display: flex;
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+}
+.search input { 
+    text-indent:40px;
+    width: 484px;
+    height: 45px;
+    border-radius:25px;
+    border: transparent;
+}
 footer {
     position: fixed;
     bottom: 0px;
