@@ -5,6 +5,7 @@
 a {
     display: inline-block;
     text-decoration: none;
+    color: gray;
 }
 /* copied from Style Editor */
 a:hover,
@@ -15,7 +16,7 @@ a:active {
     padding: 8px;
     border-radius: 50%;
 }
-.material-icons:hover {
+.icons-r .material-icons:hover {
     background-color: rgb(214, 214, 214);
 }
 .icons-r {
@@ -66,7 +67,7 @@ h1 {
     display: inline-block;
     padding: 5px;
 }
-.header {
+header {
     background-color: cadetblue;
     display: flex;
     align-items: center;
@@ -84,4 +85,9 @@ h1 {
 .searchbox {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: burlywood;
 }
