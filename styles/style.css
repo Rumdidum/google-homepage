@@ -28,7 +28,7 @@ a.nav-l {
     display:inline-block;
     padding: 5px;
     margin: 0 5px;
-    /*  */
+    
 }
 body, html {
     height: 100%;
@@ -41,12 +41,6 @@ body, html {
 }
 h1 {
     color: rgb(7, 124, 23);
-}
-.main {
-    /* display:flex; */
-    /* flex-direction: column; */
-    height: 100%;
-    /* background-color: rgb(222, 232, 242); */
 }
 .navbar {
     display: flex;
@@ -67,6 +61,10 @@ h1 {
     display: inline-block;
     padding: 5px;
 }
+.main {
+    height: 100%;
+}
+
 header {
     background-color: var(--background-color);
     display: flex;
@@ -107,12 +105,25 @@ input {
 
 
 footer {
-    position: fixed;
+    width 100%;
     bottom: 0px;
 }
 footer .land {
-    border-bottom: 1px solid gray;
+    
+    border-bottom: 1px solid #dadce0;
     padding: 15px 30px;
-    /* overflow: hidden; */
-    background-color: rgb(32, 55, 119);
+    background-color: #f2f2f2;;
+    color: gray;
+}
+.terms {
+    display: flex;
+}
+.terms a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f2f2f2;;
+}
+.space {
+    display: inline-block;
+    flex-grow: 1;
 }
