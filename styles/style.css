@@ -116,6 +116,9 @@ input {
     outline: none;
 
 }
+.submit {
+    
+}
 .submit button {
     /* need border to prevent elements from moving */
     border: 1px solid white;
@@ -123,6 +126,7 @@ input {
     padding: 10px;
     background-color: unset;
     color:darkslategray;
+    display: inline-block;
 
 
 }
