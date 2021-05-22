@@ -117,9 +117,6 @@ input {
     outline: none;
 
 }
-.submit {
-    
-}
 .submit button {
     /* need border to prevent elements from moving */
     border: 1px solid white;
