@@ -23,7 +23,6 @@ a:active {
     display: inline-block;
 }
 a.nav-l {
-    /* copied from google page */
     margin-left: 15px;
     display:inline-block;
     padding: 5px;
@@ -47,9 +46,8 @@ h1 {
     align-items: center;
     padding: 6px;
     height: 60px;
-    background-color: var(--background-color, cadetblue);
+    background-color: var(--background-color);
     flex-shrink: 0;
-    /* i dont get box-sizing and have to look it up */
     box-sizing: border-box;
 }
 .navbar .space {
@@ -105,7 +103,7 @@ form {
 .search input:hover,
 .search input:focus {
     box-shadow:0 3px 3px 3px rgba(0,0,0,.16);
-    border: 1px solid white;
+    border: 1px solid var(--background-color);
     
 }
 input {
@@ -119,7 +117,7 @@ input {
 }
 .submit button {
     /* need border to prevent elements from moving */
-    border: 1px solid white;
+    border: 1px solid var(--background-color);
     margin: 30px 10px;
     padding: 10px;
     background-color: unset;
