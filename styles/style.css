@@ -115,6 +115,10 @@ input {
     outline: none;
 
 }
+.submit {
+    width: 300px;
+    justify-content: center;
+}
 .submit button {
     /* need border to prevent elements from moving */
     border: 1px solid var(--background-color);
@@ -131,12 +135,15 @@ input {
     border: 1px solid rgb(223, 223, 223);
     border-radius: 5px;
 }
-footer {
+/*
+ footer {
+    
     width: 100%;
     position: fixed;
     bottom: 0px;
 
 }
+
 footer .land {
     
     border-bottom: 1px solid #dadce0;
@@ -155,4 +162,60 @@ footer .land {
 .space {
     display: inline-block;
     flex-grow: 1;
+} 
+*/
+
+/* Testreihe */
+footer {
+    
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+
 }
+
+footer .land {
+    
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px;
+    background-color: #f2f2f2;;
+    color: gray;
+}
+.terms {
+    width: 100%;
+    display: flex;
+    background-color: #f2f2f2;;
+    display: flex;
+    
+}
+
+.terms a {
+    padding: 15px 30px;
+
+}
+#left {
+    flex: 1;
+    text-align: start;
+}
+/* #middle {
+    flex: 1;
+    background-color: tomato;
+    text-align: center;
+} 
+for testing
+*/
+#right {
+    flex: 1;
+    text-align: end;
+}
+
+@media (max-width: 675px) {
+    .terms {
+      flex-direction: column;
+      align-items: center;
+      font-size: 2.5vw;
+    }
+    .submit {
+      display: flex;
+    }
+  }
